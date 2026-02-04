@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AIML Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>AIML Project</h2>
+        <ul>
+            <li>Home</li>
+            <li>Predict</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <section class="card">
+        <h3>Upload Data</h3>
+        <input type="file" id="fileInput">
+        <button onclick="analyze()">Analyze</button>
+        <p id="status"></p>
+    </section>
+
+    <section class="card result" id="resultBox">
+        <h3>Prediction Result</h3>
+        <p id="prediction"></p>
+        <p id="confidence"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 AIML Mini / Major Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
